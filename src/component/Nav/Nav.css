@@ -1,0 +1,19 @@
+.Nav {
+/*	position: fixed;*/
+/*	z-index: 100;*/
+	background-color:  #343;
+}
+
+li {
+	display: inline-block;
+	width: 33.3%;
+	text-align: center;
+}
+
+ul {
+	text-shadow: 
+    -1px -1px 0 #525151,
+    1px -1px 0 #525151,
+    -1px 1px 0 #525151,
+    1px 1px 0 #525151;
+}

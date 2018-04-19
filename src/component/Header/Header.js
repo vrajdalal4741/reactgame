@@ -1,10 +1,13 @@
 import React from 'react';
 import "./Header.css";
+import nflImage from './nfl.gif';
 
 const Header = props => (
 	<header>
-			<h1 className="Header-title">Memory-Click Game!</h1>
-			<h2 className="Header-note">Click on every image just once!</h2>
+		<img className="nfl-image" src={nflImage} alt={nflImage} />
+		<div className="Header">
+			<h1 className="Header-note">Click on every image just once!</h1>
+		</div>
 	</header>
 );
 
